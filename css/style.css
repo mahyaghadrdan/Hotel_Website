@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 10px;
+}
+p{
+    padding: 10px 0px;
+}
+.primary-color{
+    color: #f7c08a;
+}
+.light-color{
+    color: #fff;
+}
+.bg-primary{
+    background: #f7c08a;
+    color: #333;
+}
+.bg-light{
+    background: #fff;
+    color: #333;
+}
+.bg-dark{
+    background: #444;
+    color: #fff;
+}
+.py-1{ padding: 10px 0px;}
+.py-2{ padding: 20px 0px;}
+.py-3{ padding: 30px 0px;}
+.pad-1{padding: 10px;}
+.pad-2{padding: 20px;}
+.pad-3{padding: 30px;}
+.l-heading{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.lead{
+    color: #fff;
+    font-size: 15px;
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn-light{
+    background-color: #fff;
+    color: #333;
+}
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow: auto;
+    padding: 0px 20px;
+}
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar .logo{
+    float: left;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover{
+    background: #444;
+    color: coral;
+}
+#showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding: 200px 0px;  
+}
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat center/ cover;
+    height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    background-color: #444;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+}
+#features .box{
+    float: left;
+    width: 33%;
+    padding: 30px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+#about-info .left-content{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .right-img{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .right-img img{
+    width: 80%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+#testemonials{
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    height: 100%;
+    padding-top: 30px;
+}
+#testemonials h1{
+    text-align: center;
+}
+#testemonials img{
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+}
+#testemonials .box{
+    margin-bottom: 30px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+#testemonials .box p{
+    float: left;
+    width: 80%;
+    padding: 20px 10px;
+    text-align: justify;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group input{
+    padding: 5px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.form-group input:focus,
+.form-group textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+#contact-info{
+    background: #333;
+    color: #fff;
+}
+#contact-info .info{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+footer{
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
